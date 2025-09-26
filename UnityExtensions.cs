@@ -44,6 +44,6 @@ public static class UnityExtensions
     /// <returns>Whether the value is between 0 and 1</returns>
     public static bool Between01(this float f)
     {
-        return Between(0f, 1f);
+        return f.Between(0f, 1f);
     }
 }
